@@ -1,0 +1,55 @@
+<svg width="300" height="200" viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="cardGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f8f9fa;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- 背景 -->
+  <rect width="300" height="200" fill="url(#bgGradient1)" rx="15"/>
+  
+  <!-- 浏览器窗口 -->
+  <rect x="20" y="30" width="260" height="140" fill="url(#cardGradient)" rx="8" stroke="#e9ecef" stroke-width="2"/>
+  
+  <!-- 浏览器标题栏 -->
+  <rect x="20" y="30" width="260" height="25" fill="#495057" rx="8 8 0 0"/>
+  <circle cx="35" cy="42.5" r="4" fill="#ff6b6b"/>
+  <circle cx="50" cy="42.5" r="4" fill="#feca57"/>
+  <circle cx="65" cy="42.5" r="4" fill="#48dbfb"/>
+  
+  <!-- 购物车图标 -->
+  <g transform="translate(130, 80)">
+    <rect x="-15" y="-10" width="30" height="20" fill="#74b9ff" rx="3"/>
+    <circle cx="-8" cy="15" r="3" fill="#2d3436"/>
+    <circle cx="8" cy="15" r="3" fill="#2d3436"/>
+    <path d="M -12 -8 L -8 -8 L -6 5 L 6 5 L 8 -8 L 12 -8" stroke="#2d3436" stroke-width="2" fill="none"/>
+  </g>
+  
+  <!-- 商品卡片 -->
+  <rect x="40" y="90" width="50" height="60" fill="#ffffff" rx="5" stroke="#dee2e6"/>
+  <rect x="45" y="95" width="40" height="25" fill="#fd79a8" rx="3"/>
+  <rect x="45" y="125" width="25" height="3" fill="#6c757d" rx="1"/>
+  <rect x="45" y="130" width="35" height="3" fill="#6c757d" rx="1"/>
+  <rect x="45" y="135" width="20" height="3" fill="#28a745" rx="1"/>
+  
+  <rect x="110" y="90" width="50" height="60" fill="#ffffff" rx="5" stroke="#dee2e6"/>
+  <rect x="115" y="95" width="40" height="25" fill="#00b894" rx="3"/>
+  <rect x="115" y="125" width="25" height="3" fill="#6c757d" rx="1"/>
+  <rect x="115" y="130" width="35" height="3" fill="#6c757d" rx="1"/>
+  <rect x="115" y="135" width="20" height="3" fill="#28a745" rx="1"/>
+  
+  <rect x="180" y="90" width="50" height="60" fill="#ffffff" rx="5" stroke="#dee2e6"/>
+  <rect x="185" y="95" width="40" height="25" fill="#fdcb6e" rx="3"/>
+  <rect x="185" y="125" width="25" height="3" fill="#6c757d" rx="1"/>
+  <rect x="185" y="130" width="35" height="3" fill="#6c757d" rx="1"/>
+  <rect x="185" y="135" width="20" height="3" fill="#28a745" rx="1"/>
+  
+  <!-- 装饰元素 -->
+  <circle cx="250" cy="70" r="8" fill="#e84393" opacity="0.3"/>
+  <circle cx="270" cy="120" r="6" fill="#00cec9" opacity="0.4"/>
+</svg>

@@ -1,0 +1,47 @@
+<svg width="300" height="200" viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00b894;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00cec9;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- 背景 -->
+  <rect width="300" height="200" fill="url(#bgGradient2)" rx="15"/>
+  
+  <!-- 应用界面 -->
+  <rect x="30" y="25" width="240" height="150" fill="#ffffff" rx="10" stroke="#ddd" stroke-width="2"/>
+  
+  <!-- 标题栏 -->
+  <rect x="30" y="25" width="240" height="30" fill="#2d3436" rx="10 10 0 0"/>
+  <rect x="45" y="35" width="80" height="10" fill="#74b9ff" rx="5"/>
+  
+  <!-- 侧边栏 -->
+  <rect x="40" y="65" width="60" height="100" fill="#f8f9fa" stroke="#e9ecef"/>
+  <rect x="45" y="75" width="50" height="8" fill="#6c757d" rx="4"/>
+  <rect x="45" y="90" width="35" height="8" fill="#28a745" rx="4"/>
+  <rect x="45" y="105" width="40" height="8" fill="#fd79a8" rx="4"/>
+  <rect x="45" y="120" width="30" height="8" fill="#fdcb6e" rx="4"/>
+  
+  <!-- 任务卡片 -->
+  <rect x="115" y="75" width="140" height="25" fill="#e3f2fd" rx="5" stroke="#2196f3"/>
+  <circle cx="125" cy="87.5" r="4" fill="#4caf50"/>
+  <rect x="135" y="82" width="80" height="4" fill="#2196f3" rx="2"/>
+  <rect x="135" y="88" width="60" height="3" fill="#757575" rx="1"/>
+  
+  <rect x="115" y="110" width="140" height="25" fill="#fff3e0" rx="5" stroke="#ff9800"/>
+  <circle cx="125" cy="122.5" r="4" fill="#ff9800"/>
+  <rect x="135" y="117" width="90" height="4" fill="#ff9800" rx="2"/>
+  <rect x="135" y="123" width="70" height="3" fill="#757575" rx="1"/>
+  
+  <rect x="115" y="145" width="140" height="25" fill="#fce4ec" rx="5" stroke="#e91e63"/>
+  <circle cx="125" cy="157.5" r="4" fill="#e91e63"/>
+  <rect x="135" y="152" width="85" height="4" fill="#e91e63" rx="2"/>
+  <rect x="135" y="158" width="65" height="3" fill="#757575" rx="1"/>
+  
+  <!-- 装饰图标 -->
+  <g transform="translate(220, 40)">
+    <rect x="-8" y="-8" width="16" height="16" fill="#74b9ff" rx="3"/>
+    <path d="M -4 -2 L -1 2 L 4 -4" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round"/>
+  </g>
+</svg>
